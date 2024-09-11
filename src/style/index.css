@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("../assets/font/Montserrat-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "noto";
+  src: url("../assets/font/NotoSansKR-VariableFont_wght.ttf");
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: black;
+  background-color: white;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body{
+  margin: 0;
+  font-family: "noto", sans-serif;
+  font-weight: normal;
+  text-align: center;
+}
